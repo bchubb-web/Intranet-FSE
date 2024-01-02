@@ -1,0 +1,12 @@
+<FilesMatch "\.php$">
+	Require all denied
+</FilesMatch>
+
+<filesMatch ".(ttf|eof|svg)$">
+    Header set Cache-Control "max-age=31536000, public"
+</filesMatch>
+
+<filesMatch ".(js|css)$">
+    Header set Cache-Control "no-cache"
+</filesMatch>
+
