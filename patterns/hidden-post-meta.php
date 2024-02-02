@@ -10,19 +10,17 @@
 <div class="wp-block-group">
 	<!-- wp:group {"style":{"spacing":{"blockGap":"0.3em"}},"layout":{"type":"flex","justifyContent":"left"}} -->
 	<div class="wp-block-group">
-		<!-- wp:post-date {"format":"M j, Y","isLink":true} /-->
+		<!-- wp:post-date {"format":"M j, Y","isLink":false} /-->
 
-		<!-- wp:paragraph {"textColor":"contrast-2"} -->
-		<p class="has-contrast-2-color has-text-color">—</p>
+		<!-- wp:paragraph {"textColor":"contrast"} -->
+		<p class="has-contrast-color has-text-color">—</p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:paragraph {"fontSize":"small","textColor":"contrast-2"} -->
-		<p class="has-small-font-size has-contrast-2-color has-text-color"><?php echo esc_html_x( 'by', 'Prefix for the post author block: By author name', 'intranetbasetheme' ); ?></p>
+		<!-- wp:paragraph {"fontSize":"small","textColor":"dark"} -->
+		<p class="has-small-font-size has-dark-color has-text-color"><?php echo esc_html_x('by', 'Prefix for the post author block: By author name', 'intranetbasetheme'); ?></p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:post-author-name {"isLink":true} /-->
-
-		<!-- wp:post-terms {"term":"category","prefix":"<?php echo esc_html_x( 'in ', 'Prefix for the post category block: in category name', 'intranetbasetheme' ); ?>"} /-->
+        <!-- wp:post-author-name {"isLink":false, "color": {"textColor: var(--wp--preset--color--contrast)"}} /-->
 
 	</div>
 	<!-- /wp:group -->

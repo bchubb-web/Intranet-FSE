@@ -16,18 +16,18 @@
 		<!-- /wp:spacer -->
 
 		<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-		<h2 class="wp-block-heading has-text-align-center has-x-large-font-size"><?php echo esc_html_x( 'Join 900+ subscribers', 'Sample text for Subscriber Heading with numbers', 'intranetbasetheme' ); ?></h2>
+		<h2 class="wp-block-heading has-text-align-center has-x-large-font-size"><?php echo esc_html_x('Join 900+ subscribers', 'Sample text for Subscriber Heading with numbers', 'intranetbasetheme'); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"align":"center"} -->
-		<p class="has-text-align-center"><?php echo esc_html_x( 'Stay in the loop with everything you need to know.', 'Sample text for Subscriber Description', 'intranetbasetheme' ); ?></p>
+		<p class="has-text-align-center"><?php echo esc_html_x('Stay in the loop with everything you need to know.', 'Sample text for Subscriber Description', 'intranetbasetheme'); ?></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 		<div class="wp-block-buttons">
 			<!-- wp:button -->
 			<div class="wp-block-button">
-				<a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Sign up', 'Sample text for Sign Up Button', 'intranetbasetheme' ); ?></a>
+				<a class="wp-block-button__link wp-element-button"><?php echo esc_html_x('Sign up', 'Sample text for Sign Up Button', 'intranetbasetheme'); ?></a>
 			</div>
 			<!-- /wp:button -->
 		</div>
